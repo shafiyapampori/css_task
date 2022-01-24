@@ -1,0 +1,97 @@
+/*Begin here*/
+/* Style The Dropdown Button */
+.dropbtn {
+
+    width: 200px;
+    height: 44px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: #00ABE7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    text-align: center;
+
+}
+
+.dropbtn span {
+    width: 70px;
+    height: 18px;
+    text-align: center;
+    font: normal normal medium 14px/22px ZF Prometo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.dropbtn:focus {
+    background: #00ABE7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px #00000029;
+    border: 1px solid #0070B4;
+    border-radius: 30px;
+    opacity: 1;
+
+}
+
+.dropbtn:disabled {
+    background: #7FD5F3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px #00000029;
+    opacity: 1
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    width: 200px;
+    height: 153px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #0000000D;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    width: 180px;
+    height: 27px;
+    color: black;
+	padding:  12px 0px 12px 19px;
+    text-decoration: none;
+    display: block;
+	vertical-align: middle;
+}
+.dropdown-content a span{
+	width: 93px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/19px Verdana;
+	letter-spacing: 0px;
+	color: #333333;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+	border-left:5px solid #0070B4 ;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background: #0070B4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px #00000029;
+    opacity: 1;
+}
